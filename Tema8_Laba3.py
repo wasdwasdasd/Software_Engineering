@@ -1,0 +1,31 @@
+class Car:
+    # Метод инициализации (конструктор) класса Car
+    # Аргументы make и model передаются при создании объекта
+    # self.make и self.model сохраняют значения этих аргументов как свойства объекта
+    def __init__(self, make, model):
+        self.make = make
+        self.model = model
+
+    def drive(self):
+        print(f'Driving the {self.make} {self.model}')
+
+
+# Создание экземпляра класса Car с маркой 'Nissan' и моделью 'Silvia'
+my_car = Car('Nissan', 'Silvia')
+# Вызов метода drive
+my_car.drive()
+
+#Определение подкласса ElectricCar, который наследует функционал класса Car
+class ElectricCar(Car):
+    #super().__init__ вызывает инициализацию класса Car
+    def __init__(self, make, model, battery_capacity):
+        super().__init__(make, model) #вызов конструктора базового класса
+        self.battery_capacity = battery_capacity
+
+    def charge(self):
+        print(f'Charging the {self.make} {self.model} with {self.battery_capacity} kWh')
+
+my_electric_car = ElectricCar('Tesla', 'Plaid', 95)
+# Вызов метода drive и charge
+my_electric_car.drive()
+my_electric_car.charge()
