@@ -24,7 +24,7 @@ for item in numbers:
     print(item)
 ```
 ### Результат.
-![Меню](https://github.com/wasdwasdasd/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_10/pic/Tema11_Laba1.PNG)
+![Меню](https://github.com/wasdwasdasd/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_11/pic/Tema11_Laba1.PNG)
 ### Выводы.
 
 
@@ -50,7 +50,7 @@ if __name__ == '__main__':
         print(i)
 ```
 ### Результат.
-![Меню](https://github.com/wasdwasdasd/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_10/pic/Tema11_Laba2.PNG)
+![Меню](https://github.com/wasdwasdasd/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_11/pic/Tema11_Laba2.PNG)
 ### Выводы.
 
 
@@ -68,7 +68,7 @@ for i in a:
     print(i)
 ```
 ### Результат.
-![Меню](https://github.com/wasdwasdasd/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_10/pic/Tema11_Laba3.PNG)
+![Меню](https://github.com/wasdwasdasd/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_11/pic/Tema11_Laba3.PNG)
 ### Выводы.
 
 
@@ -87,7 +87,7 @@ for i in b:
     print(i)
 ```
 ### Результат.
-![Меню](https://github.com/wasdwasdasd/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_10/pic/Tema11_Laba4.PNG)
+![Меню](https://github.com/wasdwasdasd/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_11/pic/Tema11_Laba4.PNG)
 ### Выводы.
 
 
@@ -105,7 +105,7 @@ if __name__ == '__main__':
         print(i)
 ```
 ### Результат.
-![Меню](https://github.com/wasdwasdasd/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_10/pic/Tema11_Laba5.PNG)
+![Меню](https://github.com/wasdwasdasd/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_11/pic/Tema11_Laba5.PNG)
 ### Выводы.
 
 
@@ -122,7 +122,7 @@ fib_200 = list(fib(200))[-1]
 print(f"200е число Фибоначчи: {fib_200}")
 ```
 ### Результат.
-![Меню](https://github.com/wasdwasdasd/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_10/pic/Tema11_SR1.PNG)
+![Меню](https://github.com/wasdwasdasd/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_11/pic/Tema11_SR1.PNG)
 ### Выводы.
 Функция fib(n) генерирует последовательность чисел Фибоначчи с использованием итератора и инструкции yield. Это позволяет возвращать числа по одному, не занимая память под всю последовательность сразу. В цикле каждое новое число вычисляется как сумма двух предыдущих. Для получения 200го числа Фибоначчи создается итератор, из которого извлекаются результаты
 
@@ -148,7 +148,7 @@ fib_200 = list(fib(200))[-1]
 print(f"200е число Фибоначчи: {fib_200}")
 ```
 ### Результат.
-![Меню](https://github.com/wasdwasdasd/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_10/pic/Tema11_SR2.PNG)
+![Меню](https://github.com/wasdwasdasd/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_11/pic/Tema11_SR2.PNG)
 ### Выводы.
 Добавлена функция write_fib_to_file(n), которая записывает первые n чисел Фибоначчи в файл fib.txt.
 
